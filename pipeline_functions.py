@@ -3,7 +3,6 @@ import numpy as np
 from sklearn.linear_model import LogisticRegression
 import pickle
 
-
 def pipeline_df(df):
     
     installer_dummies = pd.get_dummies(df['installer'], prefix='installer')
@@ -155,11 +154,11 @@ def pipeline_df_log(df):
     x_permit = df[df['permit'].isnull() == False].drop(columns = ['permit', 'public_meeting'], axis=1)
     x_public = df[df['public_meeting'].isnull() == False].drop(columns = ['permit', 'public_meeting'], axis=1)
     
-    with open('public_log', 'rb') as handle:
+    with open('Pickle_files/public_log', 'rb') as handle:
         public_log = pickle.load(handle)
-    with open('permit_log', 'rb') as handle:
+    with open('Pickle_files/permit_log', 'rb') as handle:
         permit_log = pickle.load(handle)
-        
+    
     public_values = public_log.predict(x_public_test)
     pub_df = pd.DataFrame(public_values)
     x_public_test.reset_index(inplace=True)
