@@ -21,3 +21,8 @@ The approach we took on this was to first look at this problem as a logical one 
 6. exploring_the_dataVER3
 7. exploring_the_dataVERFOL
 8. pipeline_functions
+
+
+## EDA:
+
+![](/Graphs and EDA/Screen Shot 2020-05-26 at 4.29.05 PM.png)
