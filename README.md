@@ -13,3 +13,11 @@ The approach we took on this was to first look at this problem as a logical one 
 
 
 ## Contents of this project repository:
+1. CSV_files
+2. Graphs and EDA
+3. Pickle_files
+4. Mod_3_project_Final_Notebook
+5. exploring_the_data
+6. exploring_the_dataVER3
+7. exploring_the_dataVERFOL
+8. pipeline_functions
