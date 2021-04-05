@@ -27,7 +27,3 @@ The approach we took on this was to first look at this problem as a logical one 
 Identifying Well Clusters by Region Using Folium
 
 ![](/clusters.png)
-
-Distribution of Well Classes
-
-![](/wellclasses.png)
