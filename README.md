@@ -32,11 +32,16 @@ The data was taken from the driven data project on the wells in Tanzania. With t
 - Pipeline functions: Collection of all the functions used throughout the notebooks 
 
 
-## EDA:
+## EDA
+
 - Identifying Well Clusters by Region Using Folium
 ![](/Visualizations/clusters.png)
 
 
 - Distribution of Well Classes
 
-![](/wellclasses.png)
+![](/Visualizations/wellclasses.png)
+
+## Blog Article
+
+https://antoniohila.medium.com/analyzing-water-well-data-in-tanzania-48a394fd7005
