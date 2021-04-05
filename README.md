@@ -35,6 +35,7 @@ The data was taken from the driven data project on the wells in Tanzania. With t
 ## EDA
 
 - Identifying Well Clusters by Region Using Folium
+
 ![](/Visualizations/clusters.png)
 
 
