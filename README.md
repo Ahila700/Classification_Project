@@ -15,23 +15,28 @@ The approach we took on this was to first look at this problem as a logical one 
 
 What we found through our visualizations and analysis was that the location of the wells (using latitude and longitude) and the age of the wells, among other factors were what contributed primarily to understanding which wells needed to be repaired or replaced
 
+## Data Gathering and Analysis
 
-## Contents of this project repository:
-1. CSV_files
-2. Graphs and EDA
-3. Pickle_files
-4. Mod_3_project_Final_Notebook
-5. exploring_the_data
-6. exploring_the_dataVER3
-7. exploring_the_dataVERFOL
-8. pipeline_functions
+The data was taken from the driven data project on the wells in Tanzania. With that data we used different libraries in python to visualize the data including Folium to plot the data using a map and to them model the data and gather predictions.
+
+
+## Github Content
+
+- CSV_files: Collection of all CSV's used and then created throughout the process
+- Graphs and EDA: All Visualizations obtained through the project
+- Pickle_files: All saved data that wasnt a csv or visual
+- Mod_3_project_Final_Notebook: Final Collection of the results and final model that was used
+- Exploring_the_data
+- Exploring_the_dataVER3
+- Exploring_the_dataVERFOL
+- Pipeline functions: Collection of all the functions used throughout the notebooks 
 
 
 ## EDA:
-Identifying Well Clusters by Region Using Folium
-
+- Identifying Well Clusters by Region Using Folium
 ![](/clusters.png)
 
-Distribution of Well Classes
+
+- Distribution of Well Classes
 
 ![](/wellclasses.png)
