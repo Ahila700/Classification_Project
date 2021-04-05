@@ -25,10 +25,10 @@ The data was taken from the driven data project on the wells in Tanzania. With t
 - CSV_files: Collection of all CSV's used and then created throughout the process
 - Graphs and EDA: All Visualizations obtained through the project
 - Pickle_files: All saved data that wasnt a csv or visual
+- General: General overview of all the data including base models for which we will be basing our final models off of as a reference point
+- EDA_Modeling_1: Used visualizations to gather analysis of the wells for use in the modeling. Also generated some base models using the eda from the visualizations
+- PCA_Feature_Importance: Used PCA Clustering to get a better breakdown of which features have the most value in the final models
 - Mod_3_project_Final_Notebook: Final Collection of the results and final model that was used
-- Exploring_the_data
-- Exploring_the_dataVER3
-- Exploring_the_dataVERFOL
 - Pipeline functions: Collection of all the functions used throughout the notebooks 
 
 
